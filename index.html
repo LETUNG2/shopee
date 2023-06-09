@@ -22,7 +22,7 @@
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
-                            Vào cửa hàng trên ứng dụng
+                            Vào cửa hàng trên ứng dụng Shopee
                             <div class="header__qr">
                                 <img src="./assets/img/qr.png" alt="QR code" class="header__qr-img">
                                 <div class="header__qr-apps">
@@ -119,8 +119,26 @@
                         </svg>
                     </div>
                     <div class="header__search">
-                        <input type="text" class="header__search-input"
-                            placeholder="Đăng ký và nhận voucher bạn mới 70k!">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input"
+                                placeholder="Đăng ký và nhận voucher bạn mới 70k!">
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">quần jeans</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">balo đi học</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
                         <div class="header__search-select">
                             <span class="header__search-select-label">Trong shop</span>
                             <i class=" select-icon fas fa-angle-down"></i>
@@ -140,7 +158,79 @@
                         </button>
                     </div>
                     <div class="header__cart">
-                        <i class=" header__cart-icon fas fa-shopping-cart"></i>
+                        <div class="header__cart-wrap">
+                            <i class=" header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!-- no cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/no__cart.webp" alt="" class="header__cart-no-card-img">
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="https://down-vn.img.susercontent.com/file/49119e891a44fa135f5f6f5fd4cfc747_tn"
+                                            alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-des">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://down-vn.img.susercontent.com/file/be691f1a5b5a715c933e55f7fd2d7f0b_xhdpi"
+                                            alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Áo polo nam</h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">450.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-des">
+                                                    Phân loại hàng: cotton
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="	https://down-vn.img.susercontent.com/file/vn-11134201-23030-8u6xfyyacrov4f_tn"
+                                            alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ bàn phím giả cơ + chuột máy tính
+                                                    có dây G21B</h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">123.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-des">
+                                                    Phân loại hàng: giả cơ
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="header__cart-view btn btn--primary">Xem giỏ hàng</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
